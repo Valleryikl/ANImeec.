@@ -1,0 +1,58 @@
+body {
+    position: relative;
+    background-color: black;
+}
+.container {
+    background-image: url(../../img/couple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.400);
+}
+header {
+    justify-content: center;
+}
+.profil {
+    display: flex;
+    position: absolute;
+    transition: all .7s ease-in-out;
+    top: 0;
+    left: -511px;
+    color: white;
+}
+.profil__container {
+    border: 1px solid rgb(252, 73, 255);
+    width: 450px;
+    padding: 40px 30px;
+    background-color: rgb(252, 73, 255);
+}
+.profil__title {
+    margin-bottom: 10px;
+}
+.profil__info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.profil__btn {
+    height: 30px;
+    width: 30px;
+    background: none;
+    border: 1px solid rgb(252, 73, 255);
+    background-color: rgb(252, 73, 255);
+    color: white;
+}
+.user-group {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.login-form select,
+.login-form input {
+    background-color: rgb(252, 73, 255);
+    color: white;
+    border-radius: 7px;
+    padding: 3px 5px;
+}
