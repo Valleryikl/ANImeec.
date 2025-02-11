@@ -85,7 +85,47 @@ INSERT INTO img
             ('https://i.pinimg.com/originals/ed/33/b8/ed33b830e29832a92b4a311e83cdcacf.jpg'),
             ('https://th.bing.com/th/id/OIP.jicmGOQzzH3khbTEDOMcqgHaD4?w=1200&h=630&rs=1&pid=ImgDetMain'),
             ('https://th.bing.com/th/id/OIP.02PVal404Dzk06B23TzBAAHaLK?rs=1&pid=ImgDetMain'),
-            ('https://img.wattpad.com/94c111210033a232a505f53b623f1b23cc75f555/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f546e763749666e314d4f375976773d3d2d313032323530363937382e313636313633323064383033323636373235343136343635393231342e6a7067?s=fit&w=720&h=720')
+            ('https://img.wattpad.com/94c111210033a232a505f53b623f1b23cc75f555/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f546e763749666e314d4f375976773d3d2d313032323530363937382e313636313633323064383033323636373235343136343635393231342e6a7067?s=fit&w=720&h=720'),
+            ('https://images.alphacoders.com/115/thumb-1920-1154566.jpg'),
+            ('https://somoskudasai.com/wp-content/uploads/2023/06/portada_spy-x-family-171.jpg'),
+            ('https://i.pinimg.com/originals/79/fb/22/79fb223460cd8cb89c027c87d62ed1e7.jpg'),
+            ('https://aniyuki.com/wp-content/uploads/2022/06/aniyuki-loid-forger-42-819x1024.jpg'),
+            ('https://i.pinimg.com/originals/dc/b2/7b/dcb27b06639baa9e7cc3c741726ba495.jpg'),
+            ('https://preview.redd.it/55i5z5gg2lm11.gif?format=png8&s=f67f3bf9e5bd5cec1512536daa800eb600c0197e'),
+            ('https://www.101soundboards.com/storage/board_pictures/698209.jpg?c=1714531646'),
+            ('https://th.bing.com/th/id/R.d74f9a53bd3d07ca407377637384e9b9?rik=FaeWnkb6aiQPVA&pid=ImgRaw&r=0'),
+            ('https://somoskudasai.com/wp-content/uploads/2020/05/portada_roronoa-zoro-one-piece.jpg'),
+            ('https://th.bing.com/th/id/R.5109ba1cf72642b6f68a35f37491b340?rik=K7O6n7sQB%2flV7g&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f36800000%2f-Luffy-monkey-d-luffy-36845039-1280-800.jpg&ehk=QePyEB4V6cBr7rKXkraLr1oH9rovNLHvMEn0RG9%2f1ek%3d&risl=&pid=ImgRaw&r=0'),
+            ('https://i.pinimg.com/originals/11/91/be/1191be158f7a6c36540f2f576abd3596.jpg'),
+            ('https://m.media-amazon.com/images/M/MV5BMTIyNDljZjItNDM2ZS00NWU0LTk3M2YtNGI2NTk1OGEzNzNhXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_.jpg'),
+            ('https://th.bing.com/th/id/R.4441dd4db58b36e01812a325636e7955?rik=I6B5gsm7MmPsqQ&riu=http%3a%2f%2fimages5.fanpop.com%2fimage%2fphotos%2f29800000%2fSanji-one-piece-29883148-960-720.jpg&ehk=oMJwAdqdxgdICsbe9lPFR7rBoGO4RnlYHAVUN9x3y14%3d&risl=&pid=ImgRaw&r=0'),
+            ('https://s3.narvii.com/image/7c4gassyaojjyd5bgetzdikyrdaig5ta_hq.jpg'),
+            ('https://pm1.narvii.com/6692/35eac39e289c1db47d137f5ebe6b965f029a6f46_hq.jpg'),
+            ('https://i.pinimg.com/736x/9c/68/ab/9c68aba7a5ea2952ffc3bdb8a49eb3c0.jpg'),
+            ('https://assets.mycast.io/characters/jinbei-1633183-normal.jpg?1616639171'),
+            ('https://vignette.wikia.nocookie.net/champloo/images/3/3c/Mugen.jpg/revision/latest?cb=20120619031006'),
+            ('https://i.pinimg.com/originals/6d/77/cc/6d77cc619f60d565c6236ca0db3da20f.jpg'),
+            ('https://vignette.wikia.nocookie.net/gurennlagann/images/1/1f/Kaminarox.jpg/revision/latest?cb=20170924234704'),
+            ('https://gundam-link.net/wp-content/uploads/2022/09/Simon-adult.jpg'),
+            ('https://cdn.wallpapersafari.com/81/52/gSfVCz.jpg'),
+            ('https://comicvine.gamespot.com/a/uploads/scale_small/1/11495/253773-34191-lina-inverse.jpg'),
+            ('https://th.bing.com/th/id/OIP.pvppZu5XpIq2fE2i6J1C_gHaHa?rs=1&pid=ImgDetMain'),
+            ('https://wegotthiscovered.com/wp-content/uploads/2022/08/majin-vegeta.jpg'),
+            ('https://i.pinimg.com/originals/7e/05/54/7e05547a9ee1315261d26700de9321c5.jpg'),
+            ('https://th.bing.com/th/id/OIP.udEgBrMUyd6Mtd76x56OVAHaHa?w=512&h=512&rs=1&pid=ImgDetMain'),
+            ('https://img.freepik.com/premium-photo/piccolo-noble-namekian-warrior-anime-manga_705284-21076.jpg'),
+            ('https://assets.mycast.io/actor_images/actor-frieza-174864_large.jpg?1612968726'),
+            ('https://wallpaperaccess.com/full/1428136.jpg'),
+            ('https://i.pinimg.com/originals/a3/ba/4a/a3ba4a2755b2319db6ab8745f704ada3.jpg'),
+            ('https://th.bing.com/th/id/R.1b067538daec4087a6c60078315a7fe7?rik=BXnS8gHuRJuWow&riu=http%3a%2f%2f1.bp.blogspot.com%2f_MVAeQVIdvaM%2fS8xs9tR0-PI%2fAAAAAAAAAA0%2fCNoM884Qan4%2fs1600%2frie.jpg&ehk=EZ%2bG7pT6AWENCNCK4LsV0q651USTeaydOB5GAqGNbRw%3d&risl=&pid=ImgRaw&r=0'),
+            ('https://animeargentina.net/wp-content/uploads/2021/08/Mina-sailor-venus-sailor-moon-minako-aino.jpg'),
+            ('https://i.pinimg.com/736x/d7/18/a4/d718a4fc599228716883cbfd13f3a6b9.jpg'),
+            ('https://th.bing.com/th/id/OIP.bE2OnKia_0wCd2I9ThFHdgHaHa?w=1080&h=1080&rs=1&pid=ImgDetMain'),
+            ('https://pbs.twimg.com/media/Fn3FqglXkAAUzwP.jpg'),
+            ('https://vignette.wikia.nocookie.net/sailormoonfanon/images/9/96/Haruka-sol.jpg/revision/latest?cb=20190312095707'),
+            ('https://th.bing.com/th/id/R.4914d2f5007ba46e17bb4ac0e2cdbc7c?rik=lZNKVx%2fYs9hRLg&riu=http%3a%2f%2ffarm5.static.flickr.com%2f4005%2f4372973420_f7d2a09d8f.jpg&ehk=GMttNKEd5VHQoUeMk5ZT9jD7VwzBEUcrxsaGMBMP7Qs%3d&risl=&pid=ImgRaw&r=0'),
+            ('https://th.bing.com/th/id/OIP.7bCfulDWVeXC5IbrrLvc-AHaGI?rs=1&pid=ImgDetMain'),
+            ('https://i.pinimg.com/originals/60/d7/64/60d7645784db10316caa9915f112a810.jpg')
 ;
 INSERT INTO orientation 
             (name)
@@ -171,7 +211,6 @@ INSERT INTO user
             ('Kamina', 'Tengan', 'DrillKing', '1997-12-05', 1, 1, 'Japan', 'kamina@gurrenlagann.com', 'spiralpower01'),
             ('Simon', 'Gurren', 'Lagann', '2000-03-09', 1, 1, 'Japan', 'simon@gurrenlagann.com', 'rockon01'),
             ('Yoko', 'Littner', 'Gunner', '2000-10-17', 2, 1, 'Japan', 'yoko@gurrenlagann.com', 'marksman99'),
-            ('Kamina', 'Tengan', 'BigBrother', '1997-12-05', 1, 1, 'Japan', 'kamina@gurrenlagann.com', 'spiritpower99'),
             ('Lina', 'Inverse', 'Sorceress', '1999-11-20', 2, 1, 'Japan', 'lina@slayers.com', 'magma99'),
             ('Goku', 'Son', 'Saiyan', '1990-09-12', 1, 1, 'Japan', 'goku@dragonball.com', 'kakarot99'),
             ('Vegeta', 'Saiyan', 'Prince', '1989-08-10', 1, 1, 'Japan', 'vegeta@dragonball.com', 'prince99'),
@@ -179,11 +218,9 @@ INSERT INTO user
             ('Trunks', 'Briefs', 'SwordMaster', '1994-08-09', 1, 1, 'Japan', 'trunks@dragonball.com', 'future99'),
             ('Piccolo', 'Namekian', 'Warrior', '1992-05-09', 1, 1, 'Japan', 'piccolo@dragonball.com', 'greenfist99'),
             ('Frieza', 'Emperor', 'Tyrant', '1989-12-12', 1, 1, 'Japan', 'frieza@dragonball.com', 'ultimate99'),
-            ('Cell', 'Android', 'Perfection', '1993-01-17', 1, 1, 'Japan', 'cell@dragonball.com', 'perfect99'),
             ('Majin', 'Buu', 'Fatty', '1995-11-25', 1, 1, 'Japan', 'majinbuu@dragonball.com', 'magic99'),
             ('Sailor', 'Moon', 'Guardian', '1998-02-14', 2, 1, 'Japan', 'sailormoon@bishojo.com', 'crystalgem99'),
             ('Tuxedo', 'Mask', 'Hero', '1997-10-30', 1, 1, 'Japan', 'tuxedomask@bishojo.com', 'tuxedowear99'),
-            ('Usagi', 'Tsukino', 'MoonPrincess', '1999-06-30', 2, 1, 'Japan', 'usagi@bishojo.com', 'tsukino99'),
             ('Mina', 'Aino', 'Venus', '1999-12-19', 2, 1, 'Japan', 'mina@bishojo.com', 'pretty99'),
             ('Ami', 'Mizuno', 'Mercury', '2000-02-21', 2, 1, 'Japan', 'ami@bishojo.com', 'wise99'),
             ('Rei', 'Hino', 'Mars', '2000-04-17', 2, 1, 'Japan', 'rei@bishojo.com', 'fire99'),
@@ -199,7 +236,62 @@ INSERT INTO user_img
     VALUES  (1, 1),
             (2, 2),
             (3, 3),
-            (4, 4)
+            (5, 5),
+            (6, 6),
+            (7, 7),
+            (8, 8),
+            (9, 9),
+            (10, 10),
+            (11, 11),
+            (12, 12),
+            (13, 13),
+            (14, 14),
+            (15, 15),
+            (16, 16),
+            (17, 17),
+            (18, 18),
+            (19, 19),
+            (20, 20),
+            (21, 21),
+            (22, 22),
+            (23, 23),
+            (24, 24),
+            (25, 25),
+            (26, 26),
+            (27, 27),
+            (28, 28),
+            (29, 29),
+            (30, 30),
+            (31, 31),
+            (32, 32),
+            (33, 33),
+            (34, 34),
+            (35, 35),
+            (36, 36),
+            (37, 37),
+            (38, 38),
+            (39, 39),
+            (40, 40),
+            (41, 41),
+            (42, 42),
+            (43, 43),
+            (44, 44),
+            (45, 45),
+            (46, 46),
+            (47, 47),
+            (48, 48),
+            (49, 49),
+            (50, 50),
+            (51, 51),
+            (52, 52),
+            (53, 53),
+            (54, 54),
+            (55, 55),
+            (56, 56),
+            (57, 57),
+            (58, 58),
+            (59, 59),
+            (60, 60)
 ;
 INSERT INTO user_interests 
             (id_user, id_interest) 
@@ -286,47 +378,41 @@ INSERT INTO user_interests
             -- Simon (Gurren)
             (41, 5), (41, 6), (41, 12),
             -- Yoko (Littner)
-            (42, 12), (42, 1), (42, 5),
-            -- Kamina (Tengan) (Duplicate entry)
-            (43, 3), (43, 1), (43, 6),
+            (42, 3), (42, 1), (42, 6),
             -- Lina (Inverse)
-            (44, 9), (44, 8), (44, 5),
+            (43, 9), (43, 8), (43, 5),
             -- Goku (Son)
-            (45, 3), (45, 6), (45, 1),
+            (44, 3), (44, 6), (44, 1),
             -- Vegeta (Saiyan)
-            (46, 12), (46, 6), (46, 14),
+            (45, 12), (45, 6), (45, 14),
             -- Bulma (Briefs)
-            (47, 8), (47, 5), (47, 9),
+            (46, 8), (46, 5), (46, 9),
             -- Trunks (Briefs)
-            (48, 16), (48, 1), (48, 9),
+            (47, 16), (47, 1), (47, 9),
             -- Piccolo (Namekian)
-            (49, 3), (49, 5), (49, 19),
+            (48, 3), (48, 5), (48, 19),
             -- Frieza (Emperor)
-            (50, 13), (50, 5), (50, 14),
-            -- Cell (Android)
-            (51, 1), (51, 8), (51, 9),
+            (49, 1), (49, 8), (49, 9),
             -- Majin (Buu)
-            (52, 19), (52, 6), (52, 5),
+            (50, 19), (50, 6), (50, 5),
             -- Sailor (Moon)
-            (53, 12), (53, 4), (53, 8),
+            (51, 12), (51, 4), (51, 8),
             -- Tuxedo (Mask)
-            (54, 9), (54, 5), (54, 6),
-            -- Usagi (Tsukino)
-            (55, 19), (55, 9), (55, 5),
+            (52, 19), (52, 9), (52, 5),
             -- Mina (Aino)
-            (56, 9), (56, 8), (56, 12),
+            (53, 9), (53, 8), (53, 12),
             -- Ami (Mizuno)
-            (57, 3), (57, 9), (57, 17),
+            (54, 3), (54, 9), (54, 17),
             -- Rei (Hino)
-            (58, 6), (58, 12), (58, 17),
+            (55, 6), (55, 12), (55, 17),
             -- Makoto (Kino)
-            (59, 16), (59, 14), (59, 6),
+            (56, 16), (56, 14), (56, 6),
             -- Haruka (Tenoh)
-            (60, 9), (60, 5), (60, 10),
+            (57, 9), (57, 5), (57, 10),
             -- Michiru (Kaiou)
-            (61, 14), (61, 8), (61, 3),
+            (58, 14), (58, 8), (58, 3),
             -- Hotaru (Tomoe)
-            (62, 19), (62, 6), (62, 9),
+            (59, 19), (59, 6), (59, 9),
             -- Chibiusa (Tsukino)
-            (63, 4), (63, 5), (63, 17)
+            (60, 4), (60, 5), (60, 17)
 ;
