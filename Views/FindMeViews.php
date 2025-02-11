@@ -7,6 +7,7 @@ include('../Controllers/FindMeControllers.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/logo.png">
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/pag/findme.css">
@@ -25,7 +26,7 @@ include('../Controllers/FindMeControllers.php');
                 ?>
             </div>
         </div>
-        <button class="profil__btn">x</button>
+        <button class="profil__btn"><img src="../assets/img/menu.svg" alt="icon menu"></button>
     </div>
     <div class="container">
         <header>

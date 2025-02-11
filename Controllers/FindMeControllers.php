@@ -37,25 +37,25 @@ class FindMeControllers
                 $model = new FindMeModels($this->username, $this->dbh);
                 $user = $model->userGenre($_POST['genre']);
                 foreach ($user as $value) {
-                    echo "<figure class='user-item'><img class='user-foto' src='../assets/img/user.jpg' alt='user foto'><figcaption class='user-infp'></figcaption>" . $value['lastname'] . " " . $value['firstname'] . "</figure>";
+                    echo "<figure class='user-item'><img class='user-foto' src='". $value['img_url'] ."' alt='user foto'><figcaption class='user-infp'></figcaption>" . $value['lastname'] . " " . $value['firstname'] . "</figure>";
                 }
             } elseif (!empty($_POST['orientation'])) {
                 $model = new FindMeModels($this->username, $this->dbh);
                 $user = $model->userOrientation($_POST['orientation']);
                 foreach ($user as $value) {
-                    echo "<figure class='user-item'><img class='user-foto' src='../assets/img/user.jpg' alt='user foto'><figcaption class='user-infp'></figcaption>" . $value['lastname'] . " " . $value['firstname'] . "</figure>";
+                    echo "<figure class='user-item'><img class='user-foto' src='". $value['img_url'] ."' alt='user foto'><figcaption class='user-infp'></figcaption>" . $value['lastname'] . " " . $value['firstname'] . "</figure>";
                 }
             } elseif (!empty($_POST['age'])) {
                 $model = new FindMeModels($this->username, $this->dbh);
                 $user = $model->userYears($_POST['age']);
                 foreach ($user as $value) {
-                    echo "<figure class='user-item'><img class='user-foto' src='../assets/img/user.jpg' alt='user foto'><figcaption class='user-infp'></figcaption>" . $value['lastname'] . " " . $value['firstname'] . "</figure>";
+                    echo "<figure class='user-item'><img class='user-foto' src='". $value['img_url'] ."' alt='user foto'><figcaption class='user-infp'></figcaption>" . $value['lastname'] . " " . $value['firstname'] . "</figure>";
                 }
             } elseif (!empty($_POST['country'])) {
                 $model = new FindMeModels($this->username, $this->dbh);
                 $user = $model->userCountry($_POST['country']);
                 foreach ($user as $value) {
-                    echo "<figure class='user-item'><img class='user-foto' src='../assets/img/user.jpg' alt='user foto'><figcaption class='user-infp'></figcaption>" . $value['lastname'] . " " . $value['firstname'] . "</figure>";
+                    echo "<figure class='user-item'><img class='user-foto' src='". $value['img_url'] ."' alt='user foto'><figcaption class='user-infp'></figcaption>" . $value['lastname'] . " " . $value['firstname'] . "</figure>";
                 }
             }
         }

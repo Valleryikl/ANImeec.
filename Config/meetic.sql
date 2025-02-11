@@ -8,6 +8,7 @@ DROP TABLE IF EXISTS genre;
 DROP TABLE IF EXISTS interests;
 DROP TABLE IF EXISTS user_interests;
 DROP TABLE IF EXISTS orientation;
+DROP TABLE IF EXISTS img;
 
 CREATE TABLE orientation (
     id              INT             NOT NULL AUTO_INCREMENT,
@@ -50,6 +51,42 @@ CREATE TABLE user_interests (
     FOREIGN KEY (id_interest) REFERENCES interests(id)
 );
 
+CREATE TABLE img (
+    id              INT             NOT NULL AUTO_INCREMENT,
+    img_url         VARCHAR(2555)    NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE user_img (
+    id_user         INT             NOT NULL,
+    id_img          INT             NOT NULL,
+    FOREIGN KEY (id_user) REFERENCES user(id),
+    FOREIGN KEY (id_img) REFERENCES img(id)
+);
+
+INSERT INTO img 
+            (img_url)
+    VALUES  ('https://www.nautiljon.com/images/perso/00/40/yato_10004.webp'),
+            ('https://i.pinimg.com/originals/bf/7f/23/bf7f2361a755e9289f4a2a6957d6081f.jpg'),
+            ('https://i.pinimg.com/originals/43/1d/ce/431dce65be3340b9048e54d9ee1fa9e4.png'),
+            ('https://i.pinimg.com/736x/38/39/57/3839574086c2725d7925a11494c57f39.jpg'),
+            ('https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab084fa3-9348-4c5b-93a2-e068747938ee/width=1200/ab084fa3-9348-4c5b-93a2-e068747938ee.jpeg'),
+            ('https://th.bing.com/th/id/OIP.juoGVIHZSqRMQsuEVLjFYgAAAA?rs=1&pid=ImgDetMain'),
+            ('https://cdn.sanity.io/images/j16akyp2/production/64534c9a22e6829c7d1eb5027ba1549afe98a56c-736x736.jpg'),
+            ('https://th.bing.com/th/id/OIP.5WiaEo_aZubnoxtowJM7TAHaHa?rs=1&pid=ImgDetMain'),
+            ('https://pbs.twimg.com/media/Fw54SK5WYAE0ZwD?format=jpg&name=large'),
+            ('https://th.bing.com/th/id/OIP.dlk9yQ2aU6Ie-4_7HsAZJgHaJ1?rs=1&pid=ImgDetMain'),
+            ('https://images.wallpapersden.com/image/download/mikasa-ackerman_a2hubGaUmZqaraWkpJRobWllrWdpZWU.jpg'),
+            ('https://i.pinimg.com/originals/1e/46/d7/1e46d76bd56f92be159dcd3aeb0a4bed.jpg'),
+            ('https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e32af15-61e3-438a-a92e-95f0b82491e2/width=1200/2e32af15-61e3-438a-a92e-95f0b82491e2.jpeg'),
+            ('https://th.bing.com/th/id/OIP.k7hoKgQIPd0ufYO1xGxCgAHaFj?rs=1&pid=ImgDetMain'),
+            ('https://th.bing.com/th/id/OIP.M0RvZlPhf_jGKPEr2XkwOwHaEK?rs=1&pid=ImgDetMain'),
+            ('https://th.bing.com/th/id/OIP.OQDoYej6tUkgYrNHVOIPJgHaJQ?rs=1&pid=ImgDetMain'),
+            ('https://i.pinimg.com/originals/ed/33/b8/ed33b830e29832a92b4a311e83cdcacf.jpg'),
+            ('https://th.bing.com/th/id/OIP.jicmGOQzzH3khbTEDOMcqgHaD4?w=1200&h=630&rs=1&pid=ImgDetMain'),
+            ('https://th.bing.com/th/id/OIP.02PVal404Dzk06B23TzBAAHaLK?rs=1&pid=ImgDetMain'),
+            ('https://img.wattpad.com/94c111210033a232a505f53b623f1b23cc75f555/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f546e763749666e314d4f375976773d3d2d313032323530363937382e313636313633323064383033323636373235343136343635393231342e6a7067?s=fit&w=720&h=720')
+;
 INSERT INTO orientation 
             (name)
     VALUES  ('Hetero'),
@@ -157,6 +194,13 @@ INSERT INTO user
             ('Chibiusa', 'Tsukino', 'Rini', '2002-06-30', 2, 1, 'Japan', 'chibiusa@bishojo.com', 'pinkhair99')
 ;
 
+INSERT INTO user_img
+            (id_user, id_img)
+    VALUES  (1, 1),
+            (2, 2),
+            (3, 3),
+            (4, 4)
+;
 INSERT INTO user_interests 
             (id_user, id_interest) 
             -- Yato (Yabuku God)
