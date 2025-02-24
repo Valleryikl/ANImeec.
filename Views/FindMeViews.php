@@ -11,23 +11,21 @@ include('../Controllers/FindMeControllers.php');
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/pag/findme.css">
-    <script src="../assets/js/FindMe.js"></script>
+    <!-- <script src="../assets/js/FindMe.js"></script> -->
     <title>ANImeec.</title>
 </head>
 
 <body>
-    <div class="profil">
+    <!-- <div class="profil">
         <div class="profil__container">
             <h3 class="profil__title">My profil</h3>
             <div class="profil__info">
-                <?php
                 $test = new FindMeControllers($dbh);
                 $test->datasShow();
-                ?>
             </div>
         </div>
         <button class="profil__btn"><img src="../assets/img/menu.svg" alt="icon menu"></button>
-    </div>
+    </div> -->
     <div class="container">
         <header>
             <a class="logo" href="../index.html">ANImeec.</a>

@@ -19,33 +19,33 @@ class FindMeModels
         $this->dbh = $dbh;
     }
 
-    public function profil() 
-    {
-        $this->profilReq = "SELECT * FROM user WHERE username LIKE '". $this->username ."';";
-        $this->user = $this->dbh->query($this->profilReq);
-        return $this->user->fetchAll();
-    }
+    // public function profil() 
+    // {
+    //     $this->profilReq = "SELECT * FROM user WHERE username LIKE '". $this->username ."';";
+    //     $this->user = $this->dbh->query($this->profilReq);
+    //     return $this->user->fetchAll();
+    // }
 
-    public function profilGenre() 
-    {
-        $this->profilReq = "SELECT genre.name FROM user INNER JOIN genre ON user.id_genre = genre.id WHERE username LIKE '" . $this->username . "';";
-        $this->genre = $this->dbh->query($this->profilReq);
-        return $this->genre->fetch();
-    }
+    // public function profilGenre() 
+    // {
+    //     $this->profilReq = "SELECT genre.name FROM user INNER JOIN genre ON user.id_genre = genre.id WHERE username LIKE '" . $this->username . "';";
+    //     $this->genre = $this->dbh->query($this->profilReq);
+    //     return $this->genre->fetch();
+    // }
 
-    public function profilOrientation() 
-    {
-        $this->profilReq = "SELECT orientation.name FROM user INNER JOIN orientation ON user.id_orientation = orientation.id WHERE username LIKE '" . $this->username . "';";
-        $this->orientation = $this->dbh->query($this->profilReq);
-        return $this->orientation->fetch();
-    }
+    // public function profilOrientation() 
+    // {
+    //     $this->profilReq = "SELECT orientation.name FROM user INNER JOIN orientation ON user.id_orientation = orientation.id WHERE username LIKE '" . $this->username . "';";
+    //     $this->orientation = $this->dbh->query($this->profilReq);
+    //     return $this->orientation->fetch();
+    // }
 
-    public function profilInterets() 
-    {
-        $this->profilReq = "SELECT user.username, interests.name FROM user INNER JOIN user_interests ON user.id = user_interests.id_user INNER JOIN interests ON user_interests.id_interest = interests.id WHERE username LIKE '" . $this->username . "';";
-        $this->interets = $this->dbh->query($this->profilReq);
-        return $this->interets->fetchAll();
-    }
+    // public function profilInterets() 
+    // {
+    //     $this->profilReq = "SELECT user.username, interests.name FROM user INNER JOIN user_interests ON user.id = user_interests.id_user INNER JOIN interests ON user_interests.id_interest = interests.id WHERE username LIKE '" . $this->username . "';";
+    //     $this->interets = $this->dbh->query($this->profilReq);
+    //     return $this->interets->fetchAll();
+    // }
 
     public function user()
     {

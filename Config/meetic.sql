@@ -76,7 +76,7 @@ INSERT INTO img
             ('https://th.bing.com/th/id/OIP.5WiaEo_aZubnoxtowJM7TAHaHa?rs=1&pid=ImgDetMain'),
             ('https://pbs.twimg.com/media/Fw54SK5WYAE0ZwD?format=jpg&name=large'),
             ('https://th.bing.com/th/id/OIP.dlk9yQ2aU6Ie-4_7HsAZJgHaJ1?rs=1&pid=ImgDetMain'),
-            ('https://images.wallpapersden.com/image/download/mikasa-ackerman_a2hubGaUmZqaraWkpJRobWllrWdpZWU.jpg'),
+            ('https://steamuserimages-a.akamaihd.net/ugc/787489507706137186/A03E06C8F447275F316435BB86BB76BBA55FC953/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false'),
             ('https://i.pinimg.com/originals/1e/46/d7/1e46d76bd56f92be159dcd3aeb0a4bed.jpg'),
             ('https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e32af15-61e3-438a-a92e-95f0b82491e2/width=1200/2e32af15-61e3-438a-a92e-95f0b82491e2.jpeg'),
             ('https://th.bing.com/th/id/OIP.k7hoKgQIPd0ufYO1xGxCgAHaFj?rs=1&pid=ImgDetMain'),
