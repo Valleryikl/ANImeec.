@@ -22,6 +22,6 @@ class SelecthobbyModels
     }
     public function validReq() 
     {
-        $this->VReq = "SELECT id";
+        $this->VReq = "SELECT COUNT(id_user) FROM user_interests ";
     }
 }

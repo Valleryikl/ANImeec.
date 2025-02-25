@@ -15,7 +15,7 @@
         <img class="icon" src="../assets/img/done.svg" alt="icon done">
     </div>
     <?php
-        header("refresh:1;url=./SelecthobbyViews.php")
+        header("refresh:3;url=./SelecthobbyViews.php")
     ?>
 </body>
 </html>
