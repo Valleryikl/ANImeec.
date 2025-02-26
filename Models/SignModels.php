@@ -35,7 +35,8 @@ class SignModels
         
         $usernamePrepare->bindParam(':username', $username);
         
-        $usernameCount = $usernamePrepare->execute();
+        $usernamePrepare->execute();
+        $usernameCount = $usernamePrepare->fetchColumn();
         
         return $usernameCount;
     }
@@ -46,7 +47,8 @@ class SignModels
         
         $emailPrepare->bindParam(':email', $email);
         
-        $emailCount = $emailPrepare->execute();
+        $emailPrepare->execute();
+        $emailCount= $emailPrepare->fetchColumn();
 
         return $emailCount;
     }
