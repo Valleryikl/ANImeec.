@@ -1,21 +1,25 @@
 <?php 
-include ('../Config/Database.php');
-class SignModels 
+require_once __DIR__ . '/../Config/Database.php';
+class LoginModels 
 {
-    public $username;
-    protected $password;
-    public $dbh;
-    public $entreReq;
-    public function __construct($username, $password, $dbh)
+    private $dbh;
+
+    public function __construct($dbh)
     {
-        $this->username = $username;
-        $this->password = $password;
         $this->dbh = $dbh;
     }
-    public function signReq() {
-        $this->entreReq = "SELECT COUNT(*) FROM user WHERE username LIKE '$this->username' AND password LIKE '$this->password';";
-        $test = $this->dbh->query($this->entreReq);
-        $test->execute();
-        return $test->fetchColumn();
+    public function loginReq($user, $password)
+    {
+        $userReq = "SELECT COUNT(*) FROM user WHERE username = :user OR email = :user AND password = :password;";
+
+        $userPrepare = $this->dbh->prepare($userReq);
+
+        $userPrepare->bindParam(':user', $user);
+        $userPrepare->bindParam(':password', $password);
+
+        $userPrepare->execute();
+        $result = $userPrepare->fetchColumn();
+
+        return $result;
     }
 }

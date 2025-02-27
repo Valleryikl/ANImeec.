@@ -1,4 +1,5 @@
-<?php include('../Controllers/SignControllers.php');
+<?php
+require_once __DIR__ . '/../Controllers/LoginControllers.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,7 +26,7 @@
         <main>
             <form class="login-form" method="post" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                 <h2 class="form-title">Sign up</h2>
-                <input class="username" name="username" type="text" placeholder="Username">
+                <input class="username" name="user" type="text" placeholder="Username/E-mail">
                 <input name="password" type="password">
                 <input class="submit" type="submit" value="Send">
                 <img class="heart" src="../assets/img/heart.png" alt="heart">

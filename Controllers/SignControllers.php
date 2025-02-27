@@ -52,8 +52,6 @@ class SignControllers
             }
             $usernameCount = $this->model->usernameReq($username);
             $emailCount = $this->model->emailReq($email);
-            print_r($usernameCount);
-            echo $emailCount;
             
             if ($usernameCount > 0) {
                 echo "Un utilisateur avec cette username <br>'{$username}' existe déjà";
