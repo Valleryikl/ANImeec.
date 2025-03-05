@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+@keyframes dinamic-text {
+  from {
+    transform: scale(1);
+    color: white;
+  }
+  25% {
+    transform: scale(1.05);
+    color: rgb(252, 73, 255);
+  }
+  50% {
+    transform: scale(1);
+    color: white;
+  }
+  75% {
+    transform: scale(1.05);
+    color: rgb(252, 73, 255);
+  }
+  100% {
+    transform: scale(1);
+    color: white;
+  }
+}
+@keyframes border {
+  from {
+    border-color: white;
+  }
+  25% {
+    border-color: rgb(252, 73, 255);
+  }
+  50% {
+    border-color: white;
+  }
+  75% {
+    border-color: rgb(252, 73, 255);
+  }
+  to {
+    border-color: white;
+  }
+}
+@keyframes dinamic {
+  from {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes one-poin {
+  from {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes two-poin {
+  from {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes three-poin {
+  from {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes icon {
+  from {
+    width: 0;
+    height: 0;
+  }
+  50% {
+    width: 300px;
+    height: 300px;
+  }
+  to {
+    width: 300px;
+    height: 300px;
+  }
+}
+@keyframes lading {
+  from {
+    font-size: 70px;
+  }
+  50% {
+    font-size: 0;
+    display: none;
+  }
+  to {
+    display: none;
+    font-size: 0;
+  }
+}
+.container {
+  padding: 3vh 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 94vh;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.03);
+}
+
+.link-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.link-group a {
+  background-color: rgb(252, 73, 255);
+  padding: 5px 30px;
+  border-radius: 20px;
+  transition: all 0.1s ease-in-out;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.link-group a:hover {
+  background-color: rgb(252, 103, 255);
+  box-shadow: 5px 3px 2px 0px rgba(152, 35, 255, 0.531);
+  color: white;
+}
+
+.link-group a:active {
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(221, 65, 223);
+}
+
+.main-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 13vh;
+  width: 30%;
+  padding: 50px 20px;
+  border: 5px solid rgb(252, 73, 255);
+  border-radius: 30px;
+  position: relative;
+  z-index: 69;
+  backdrop-filter: blur(3px);
+  animation: border infinite 5s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.form:hover {
+  box-shadow: 5px 3px 3px 5px rgba(0, 0, 0, 0.295);
+  padding: 55px 25px;
+}
+
+.form input {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  width: 70%;
+}
+
+.form select {
+  border-radius: 10px;
+  background-color: rgb(252, 73, 255);
+  color: white;
+  padding: 3px;
+}
+
+.form-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+  animation: dinamic-text infinite 5s ease-in-out;
+}
+
+input.submit {
+  background-color: rgb(252, 73, 255);
+  color: white;
+  width: 50%;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  animation: dinamic infinite 5s ease-in-out;
+}
+
+input.submit:hover {
+  background-color: rgb(224, 50, 226);
+}
+
+input.submit:active {
+  background-color: rgb(193, 33, 196);
+}
+
+.container-form {
+  background-image: url("../img/login-back.jpg");
+}
+
+.container-index {
+  background-image: url("../img/index-back.jpg");
+}
+
+.title {
+  margin-top: 30vh;
+  font-size: 45px;
+  width: 60%;
+  padding-left: 2%;
+}
+
+.dinamic-text {
+  animation: dinamic-text infinite 6s ease-in-out;
+}
+
+.one {
+  animation: one-poin infinite 3s ease-in-out;
+}
+
+.two {
+  animation: two-poin infinite 3s ease-in-out;
+}
+
+.three {
+  animation: three-poin infinite 3s ease-in-out;
+}
+
+.icon {
+  animation: icon 1 5s 5s ease-in-out;
+  width: 0;
+  height: 0;
+}
+
+.lading {
+  animation: lading 1 5s 5s ease-in-out;
+  font-size: 70px;
+}
+
+.lading-group {
+  background-image: url(../img/lading.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.303);
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  position: relative;
+  background-color: black;
+}
+
+.container-findme {
+  background-image: url(../img/couple.jpg);
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-header {
+  justify-content: center;
+}
+
+.find-form {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.find-form select,
+.find-form input {
+  background-color: rgb(252, 73, 255);
+  color: white;
+  border-radius: 7px;
+  padding: 3px 5px;
+  border: none;
+}
+
+.find-form input::placeholder {
+  color: white;
+}
+
+.user-group {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.user-item {
+  width: 30%;
+  height: 50vh;
+}
+
+.user-foto {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(100px);
+}
+
+/*# sourceMappingURL=main.css.map */

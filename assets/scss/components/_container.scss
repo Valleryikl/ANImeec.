@@ -1,0 +1,23 @@
+.container {
+    padding: 3vh 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.logo {
+    font-size: 30px;
+    transition: all .2s ease-in-out;
+}
+.logo:hover {
+    transform: scale(1.03);
+}
+

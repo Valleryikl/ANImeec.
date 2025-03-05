@@ -1,0 +1,10 @@
+{
+  "name": "animeec",
+  "version": "1.0.0",
+  "scripts": {
+    "scss": "sass assets/scss/main.scss assets/css/main.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}

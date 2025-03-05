@@ -1,0 +1,17 @@
+// Подключаем базовые стили
+@use 'base/reset';
+@use 'base/animation';
+@use 'base/typography';
+
+// Подключаем компоненты
+@use 'components/container';
+@use 'components/btn';
+@use 'components/form';
+
+
+// Подключаем стили страниц
+@use 'pages/index';
+@use 'pages/login';
+@use 'pages/sign';
+@use 'pages/lading';
+@use 'pages/findme';

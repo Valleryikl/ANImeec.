@@ -2,10 +2,8 @@ body {
     position: relative;
     background-color: black;
 }
-.container {
-    background-image: url(../../img/couple.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.container-findme {
+    background-image: url(../img/couple.jpg);
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.400);
     display: flex;

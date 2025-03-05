@@ -1,0 +1,12 @@
+.container-index {
+    background-image: url('../img/index-back.jpg');
+}
+.title {
+    margin-top: 30vh;
+    font-size: 45px;
+    width: 60%;
+    padding-left: 2%;
+}
+.dinamic-text {
+    animation: dinamic-text infinite 6s ease-in-out;
+}

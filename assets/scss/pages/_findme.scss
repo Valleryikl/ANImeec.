@@ -1,0 +1,47 @@
+body {
+    position: relative;
+    background-color: black;
+}
+.container-findme {
+    background-image: url(../img/couple.jpg);
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.400);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.find-header {
+    justify-content: center;
+}
+.find-form {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.find-form select,
+.find-form input {
+    background-color: rgb(252, 73, 255);
+    color: white;
+    border-radius: 7px;
+    padding: 3px 5px;
+    border: none;
+}
+.find-form input::placeholder {
+    color: white;
+}
+.user-group {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.user-item {
+    width: 30%;
+    height: 50vh;
+}
+.user-foto {
+    width: 100%;
+    height: 100%;
+    filter:drop-shadow(100px);
+}

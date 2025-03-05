@@ -1,0 +1,23 @@
+.link-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 20px;
+}
+.link-group a {
+    background-color: rgb(252, 73, 255);
+    padding: 5px 30px;
+    border-radius: 20px;
+    transition: all .1s ease-in-out;
+    color: rgba(255, 255, 255, 0.950);
+}
+.link-group a:hover {
+    background-color: rgb(252, 103, 255);
+    box-shadow: 5px 3px 2px 0px rgba(152, 35, 255, 0.531);
+    color: white;
+}
+.link-group a:active {
+    box-shadow: none;
+    color: rgba(255, 255, 255, 0.80);
+    background-color: rgb(221, 65, 223);
+}

@@ -8,10 +8,7 @@ include('../Controllers/FindMeControllers.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/img/logo.png">
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/pag/findme.css">
-    <!-- <script src="../assets/js/FindMe.js"></script> -->
+    <link rel="stylesheet" href="../assets/css/main.css">
     <title>ANImeec.</title>
 </head>
 
@@ -26,11 +23,11 @@ include('../Controllers/FindMeControllers.php');
         </div>
         <button class="profil__btn"><img src="../assets/img/menu.svg" alt="icon menu"></button>
     </div> -->
-    <div class="container">
-        <header>
+    <div class="container container-findme">
+        <header class="find-header">
             <a class="logo" href="../index.html">ANImeec.</a>
         </header>
-        <form class="login-form" method="post" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+        <form class="find-form" method="post" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <select class="genre" name="genre">
                 <option value="">Non</option>
                 <option value="Man">Man</option>

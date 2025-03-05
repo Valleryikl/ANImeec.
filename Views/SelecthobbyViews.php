@@ -112,9 +112,6 @@
         </form>
         <p><?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                // $selected = array_keys($_POST);
-                // // $selected_count = count($selected);
-                // echo "Выбранные: " . implode(", ", $selected);
                 $select = new SelecthobbyControllers($dbh);
                 $select ->dataValidation();
             }

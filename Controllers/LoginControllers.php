@@ -23,9 +23,16 @@ class SignControllers
             } else {
                 $result = $this->model->loginReq($user, $password);                                                                                           
                 if($result == 1) {
+                    $id_user = $this->model->userIdReq($user);
+                    $countHobby = $this->model->countInterestReq($id_user);
                     session_start();
                     $_SESSION['user'] = $user;
-                    header("Location: http://localhost:6996/Views/LadingViews.php");
+                    $_SESSION['id_user'] = $id_user;
+                    if($countHobby < 1) {
+                        header("Location: http://localhost:6996/Views/LadingViews.php");
+                    } else {
+                        header("Location: http://localhost:6996/Views/FindMeViews.php");
+                    }
                 } else {
                     echo "Password or name is invalid";
                 }
