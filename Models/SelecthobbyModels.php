@@ -4,8 +4,6 @@ class SelecthobbyModels
 {
     public $username;
     public $selectedArr;
-    public $entreReq;
-    public $VReq;
     public $dbh;
     public function __construct($username, $selectedArr, $dbh)
     {
@@ -16,12 +14,8 @@ class SelecthobbyModels
     public function hobbyReq()
     {
         for ($i = 0; $i < count($this->selectedArr); $i++) {
-            $this->entreReq = "INSERT INTO user_interests (id_user, id_interest) SELECT user.id, interests.id FROM user, interests WHERE user.username = '$this->username' AND interests.name = '" . $this->selectedArr[$i] . "';";
-            $this->dbh->query($this->entreReq);
+            $entreReq = "INSERT INTO user_interests (id_user, id_interest) SELECT user.id, interests.id FROM user, interests WHERE user.username = '$this->username' AND interests.name = '" . $this->selectedArr[$i] . "';";
+            $this->dbh->query($entreReq);
         }
-    }
-    public function validReq() 
-    {
-        $this->VReq = "SELECT COUNT(id_user) FROM user_interests ";
     }
 }
